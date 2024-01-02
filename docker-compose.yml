@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  kijiji-logger:
+    image: ghcr.io/wilsonthewolf/kijiji-logger:latest
+    container_name: kijiji-logger
+    volumes:
+      - ./data:/app/data
+      - ${PWD}/config.json:/app/config.json
+    restart: on-failure:5
+    stop_grace_period: 10s

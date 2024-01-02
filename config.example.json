@@ -1,0 +1,14 @@
+{
+    "urls": [
+        {
+            "url": "https://www.kijiji.ca/rss-srp-calgary/steam-deck/k0l1700199?address=Calgary%2C%20AB&dc=true&ll=51.044733%2C-114.071883&radius=50.0&rb=true",
+            "desc": "Steam Deck",
+            "undesirable": [
+                100,
+                1000
+            ],
+            "hot": 400
+        }
+    ],
+    "ntfy": "https://ntfy.sh/kijiji"
+}
